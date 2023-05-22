@@ -1,0 +1,81 @@
+ body {
+               margin: 0;
+               padding: 0;
+               background-color: rgb(235, 234, 234);
+           }
+           h2{
+               font-size: 16pt;
+               color: #3ec4f7;
+               font-weight: bold;
+           }
+           .bt_primary{
+               color:white;
+               background-color:#192f4e;
+               padding: 10px;
+               font-size: 15pt;
+               width: 24%;
+               transition: .7s;
+            }
+            .bt_primary:hover{
+               color:#192f4e;
+               border:1px solid #192f4e;
+               padding: 10px;
+
+            }
+            .texto_direita{
+               float: right;
+               color: #3ec4f7;     
+           
+            }
+           input {
+               border-radius: 88px;
+               outline: none;
+               padding: 16px 30px;
+               margin-bottom: 10px;
+               border: 2px solid #b3b3b3;
+           }
+           input[type=text]:focus {
+                border: 2px solid #3ec4f7;
+           }
+           input[type=password]:focus {
+               border: 2px solid #3ec4f7;
+          }
+           .form-group  {
+               position: relative;
+          }
+          .form-group  i {
+          position: absolute;
+          top: 23px;
+          left: 12px;
+          color: #ccc;
+          
+   }
+
+          .owl-dots {
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          color:#444;
+          }
+
+          .owl-dot {
+          background-color: #ddd;
+          border-radius: 50%;
+          width: 10px;
+          height: 10px;
+          margin: 0 10px;
+          display: inline-block;
+          transition: background-color 0.2s ease;
+          }
+
+          .owl-dot.active {
+          background-color: #555;
+          }
+
+          .grade_login_main{
+               border-radius:8px;height:520px;
+          }
+          label{
+           font-size: 6.6pt;
+           color: #666; 
+          }
